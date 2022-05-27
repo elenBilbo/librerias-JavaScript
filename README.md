@@ -1,17 +1,17 @@
 # librerías-JavaScript
 Ejemplos y ejercicios para familiarizarnos con el uso de librerías JavaScript
 
-##Anime
+## Anime
 https://animejs.com/
 
-##Choreographer
+## Choreographer
 https://christinecha.github.io/choreographer-js/
 
-##Granim
+## Granim
 [https://sarcadass.github.io/granim.js/](https://rawgit.com/MrRio/jsPDF/master/docs/index.html)
 
-##JsPdf
+## JsPdf
 https://sarcadass.github.io/granim.js/
 
-##Textillate
+## Textillate
 http://textillate.js.org/

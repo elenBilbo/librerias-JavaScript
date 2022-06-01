@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>librerías JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 3 librerías</h1>
+    </header>
+    <section>
+        <!--
+COMPRAR
+Verifica que ha seleccionado jun producto de la lista desplegable porque si no saldrá mensaje de error (alert) indicándolo.
+Lo mismo con la cantidad.
+Si todo va bien y el usuario mete correctamente producto y cantidad se añadirá a la factura
+IMPRIMIR
+Utilizando la librería Javascript que se adjunta en el examen jsPdf se imprimirá en un pdf (ver video explicativo) los datos de la factura recogidos del textarea. Además, al final de la factura se geerará una línea con la cantidad total a pagar.
+        -->
+        <h2>PARTE 1: javaScript/JQuery</h2>
+        <select name="producto">
+            <option selected value="0"> Selecciona el producto </option>
+            <option value="camiseta">Camiseta blanca  <span class="precio">25</span>€</option>
+            <option value="pantalon">Pantalones vaqueros  <span class="precio">45</span>€</option>
+            <option value="calcetines">Calcetines  <span class="precio">7</span>€</option>
+            <option value="jersey">Jersey marinero  <span class="precio">22</span>€</option>
+ 
+        </select>
+        <input type="number" name="cantidad" value="1" min="1" max="20" step="1" />
+        <input type="button" value="comprar">
+        <textarea cols="50" rows="10">
+FACTURA
+---------------------------------
+</textarea>
+        <input type="button" value="imprimir">
+        
+    </section>
+    <hr />
+    <section>
+        <h2>PARTE 2: librería TEXTILLATE.JS javaScript</h2>
+    </section>
+<!--Utilizaremos la librería textillate.js para que salga el texto tal y como aparece en el video-->
+</body>
+
+</html>

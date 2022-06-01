@@ -7,10 +7,10 @@ https://animejs.com/
 ## Choreographer
 https://christinecha.github.io/choreographer-js/
 
-## Granim
-[https://sarcadass.github.io/granim.js/](https://rawgit.com/MrRio/jsPDF/master/docs/index.html)
+## jsPDF
+https://rawgit.com/MrRio/jsPDF/master/docs/index.html
 
-## JsPdf
+## Granim
 https://sarcadass.github.io/granim.js/
 
 ## Textillate

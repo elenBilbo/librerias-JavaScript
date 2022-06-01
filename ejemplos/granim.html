@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejemplo granim.js</title>
+  <style>
+    
+
+body {
+  margin: 20px auto;
+  font-family: "Lato";
+  font-weight: 300;
+  width: 80%;
+  text-align: center;
+}
+.wrapper{
+  
+}
+#canvas {
+  display: block;
+  width: 768px;
+  height: 1024px;
+  border: 10px double black;
+  margin: 50px 0;
+}
+
+
+  </style>
+</head>
+<body>
+  
+
+<h1>Gradiente animado sobre imagen</h1>
+
+<div class="wrapper">
+ <canvas id="canvas"></canvas>
+</div>
+
+
+</body>
+</html>
+<script src="libs/granim.min.js"></script>
+<script>
+var granim = new Granim({
+  element: "#canvas",
+  name: "gradiente",
+  elToSetClassOn: ".wrapper",
+  direction: "top-bottom",
+  opacity: [1, 1],
+  image: {
+    source: "bilbao.jpg",
+    stretchMode: ["stretch", "stretch"],
+    blendingMode: "overlay"
+  },
+  states: {
+    "default-state": {
+      gradients: [["#7dab69", "#478b29"], ["#f36d7c", "#ed0b26"]],
+      transitionSpeed: 2000
+    }
+  }
+});
+</script>

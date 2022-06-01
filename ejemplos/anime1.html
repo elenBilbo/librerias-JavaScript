@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>animejs</title>
+        <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js">
+       </script>
+    </head>
+    <body>
+        <section>
+            <h1><a href="https://es.acervolima.com/anime-js-animacion-con-diferentes-propiedades/">GeeksforGeeks</a></h1>
+            <strong>
+                Animación de color de fondo y borde
+            </strong>
+            <br><br>
+        </section>
+            <div style="background: #fff; 
+                               height: 100px;
+                               width: 100px;">
+            </div>
+        <script>
+            let animation = anime({
+                targets: "div",
+                
+               // Move 250 into positive x-axis
+                translateX: 250, 
+                
+               // Degree you want to rotate
+                rotate: "720", 
+                backgroundColor: "#013F7E",
+                direction: "alternate",
+                duration: "2000",
+                loop: true,
+            });
+        </script>
+    </body>
+</html>
